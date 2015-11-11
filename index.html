@@ -9,13 +9,22 @@
     <!--<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">-->
 
     <title>Home</title>
+      <script>
+          window.onload = function () {
+              document.getElementById("btn").onclick = function () {
+                  alert("Hello Everyone");
+              }
+          }
+
+      </script>
   </head>
 
 <body style="text-align:center">
     
-
+    <div><input type="button" value="say Hello" id="btn" /></div>
+    
     <img src="images/home.jpg" />
-
+    
 
 </body>
 </html>
